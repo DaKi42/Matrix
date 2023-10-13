@@ -21,7 +21,7 @@ public:
 
     A& operator= (int b) 
     {
-        value = b;
+        value = b; 
         return *this;
     }
 

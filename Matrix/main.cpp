@@ -11,7 +11,7 @@ istream& operator>>(istream& is, A& m) {
     int number;
     is >> number;
     m.set_value(number);
-    return is;
+    return is; 
 }
 
 int main() {
